@@ -61,7 +61,7 @@ def run_but_ignore_errors(*args, **kwargs):
             try:
                 return subprocess.check_output(*args, shell=True, stderr=devnull,
                                                **kwargs)
-            except (subprocess.SubprocessError, FileNotFoundError, OSError):
+            except (subprocess.CalledProcessError, FileNotFoundError, OSError):
                 return None
             except Exception:
                 logger = logging.getLogger(__name__)
