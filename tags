@@ -1,0 +1,626 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AGILE_BASE_REST_PATH	jira/resources.py	/^    AGILE_BASE_REST_PATH = "agile"$/;"	v	language:Python	class:GreenHopperResource
+AGILE_BASE_URL	jira/client.py	/^    AGILE_BASE_URL = GreenHopperResource.AGILE_BASE_URL$/;"	v	language:Python	class:JIRA
+AGILE_BASE_URL	jira/resources.py	/^    AGILE_BASE_URL = '{server}\/rest\/{agile_rest_path}\/{agile_rest_api_version}\/{path}'$/;"	v	language:Python	class:GreenHopperResource
+AGILE_EXPERIMENTAL_REST_PATH	jira/resources.py	/^    AGILE_EXPERIMENTAL_REST_PATH = "greenhopper\/experimental-api"$/;"	v	language:Python	class:GreenHopperResource
+ALLSPHINXOPTS	docs/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m	language:Make
+ApplicationPropertiesTests	tests/tests.py	/^class ApplicationPropertiesTests(unittest.TestCase):$/;"	c	language:Python
+Attachment	jira/resources.py	/^class Attachment(Resource):$/;"	c	language:Python
+AttachmentTests	tests/tests.py	/^class AttachmentTests(unittest.TestCase):$/;"	c	language:Python
+BASE_VERSION	jira/package_meta.py	/^BASE_VERSION = '1.0.7'$/;"	v	language:Python
+BUILDDIR	docs/Makefile	/^BUILDDIR      = build$/;"	m	language:Make
+Board	jira/resources.py	/^class Board(GreenHopperResource):$/;"	c	language:Python
+CONDA	Makefile	/^CONDA:=1$/;"	m	language:Make
+CONFIG_PATH	jira/jirashell.py	/^CONFIG_PATH = os.path.join($/;"	v	language:Python
+CONSUMER_KEY	tests/tests.py	/^CONSUMER_KEY = 'oauth-consumer'$/;"	v	language:Python
+CaseInsensitiveDict	jira/utils/__init__.py	/^class CaseInsensitiveDict(dict):$/;"	c	language:Python
+Comment	jira/resources.py	/^class Comment(Resource):$/;"	c	language:Python
+Component	jira/resources.py	/^class Component(Resource):$/;"	c	language:Python
+ComponentTests	tests/tests.py	/^class ComponentTests(unittest.TestCase):$/;"	c	language:Python
+CustomFieldOption	jira/resources.py	/^class CustomFieldOption(Resource):$/;"	c	language:Python
+CustomFieldOptionTests	tests/tests.py	/^class CustomFieldOptionTests(unittest.TestCase):$/;"	c	language:Python
+DEFAULT_OPTIONS	jira/client.py	/^    DEFAULT_OPTIONS = {$/;"	v	language:Python	class:JIRA
+DIR	Makefile	/^DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))$/;"	m	language:Make
+Dashboard	jira/resources.py	/^class Dashboard(Resource):$/;"	c	language:Python
+DashboardTests	tests/tests.py	/^class DashboardTests(unittest.TestCase):$/;"	c	language:Python
+FieldsTests	tests/tests.py	/^class FieldsTests(unittest.TestCase):$/;"	c	language:Python
+Filter	jira/resources.py	/^class Filter(Resource):$/;"	c	language:Python
+FilterTests	tests/tests.py	/^class FilterTests(unittest.TestCase):$/;"	c	language:Python
+GIT_BRANCH	Makefile	/^GIT_BRANCH=$(shell git branch | sed -n '\/\\* \/s\/\/\/p')$/;"	m	language:Make
+GREENHOPPER_REST_PATH	jira/resources.py	/^    GREENHOPPER_REST_PATH = "greenhopper"$/;"	v	language:Python	class:GreenHopperResource
+GreenHopper	jira/client.py	/^class GreenHopper(JIRA):$/;"	c	language:Python
+GreenHopperResource	jira/resources.py	/^class GreenHopperResource(Resource):$/;"	c	language:Python
+GroupsTest	tests/tests.py	/^class GroupsTest(unittest.TestCase):$/;"	c	language:Python
+I18NSPHINXOPTS	docs/Makefile	/^I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m	language:Make
+Issue	jira/resources.py	/^class Issue(Resource):$/;"	c	language:Python
+IssueLink	jira/resources.py	/^class IssueLink(Resource):$/;"	c	language:Python
+IssueLinkTests	tests/tests.py	/^class IssueLinkTests(unittest.TestCase):$/;"	c	language:Python
+IssueLinkType	jira/resources.py	/^class IssueLinkType(Resource):$/;"	c	language:Python
+IssueTests	tests/tests.py	/^class IssueTests(unittest.TestCase):$/;"	c	language:Python
+IssueType	jira/resources.py	/^class IssueType(Resource):$/;"	c	language:Python
+JIRA	jira/client.py	/^class JIRA(object):$/;"	c	language:Python
+JIRAError	jira/exceptions.py	/^class JIRAError(Exception):$/;"	c	language:Python
+JIRA_BASE_URL	jira/client.py	/^    JIRA_BASE_URL = Resource.JIRA_BASE_URL$/;"	v	language:Python	class:JIRA
+JIRA_BASE_URL	jira/resources.py	/^    JIRA_BASE_URL = '{server}\/rest\/{rest_path}\/{rest_api_version}\/{path}'$/;"	v	language:Python	class:Resource
+JiraTestManager	tests/tests.py	/^class JiraTestManager(object):$/;"	c	language:Python
+KEY_CERT_DATA	tests/tests.py	/^        KEY_CERT_DATA = cert.read()$/;"	v	language:Python
+KEY_CERT_DATA	tests/tests.py	/^KEY_CERT_DATA = None$/;"	v	language:Python
+KEY_CERT_FILE	tests/tests.py	/^KEY_CERT_FILE = '\/home\/bspeakmon\/src\/atlassian-oauth-examples\/rsa.pem'$/;"	v	language:Python
+MyPermissionsTests	tests/tests.py	/^class MyPermissionsTests(unittest.TestCase):$/;"	c	language:Python
+NAME	setup.py	/^NAME = "jira"$/;"	v	language:Python
+NullHandler	jira/client.py	/^    class NullHandler(logging.Handler):$/;"	c	language:Python
+NullHandler	jira/resilientsession.py	/^    class NullHandler(logging.Handler):$/;"	c	language:Python
+NullHandler	jira/resources.py	/^    class NullHandler(logging.Handler):$/;"	c	language:Python
+OAUTH	tests/tests.py	/^    OAUTH = True$/;"	v	language:Python
+OAUTH	tests/tests.py	/^OAUTH = False$/;"	v	language:Python
+OtherTests	tests/tests.py	/^class OtherTests(unittest.TestCase):$/;"	c	language:Python
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME := $(shell python setup.py --name)$/;"	m	language:Make
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION := $(shell python setup.py --version)$/;"	m	language:Make
+PAPER	docs/Makefile	/^PAPER         =$/;"	m	language:Make
+PAPEROPT_a4	docs/Makefile	/^PAPEROPT_a4     = -D latex_paper_size=a4$/;"	m	language:Make
+PAPEROPT_letter	docs/Makefile	/^PAPEROPT_letter = -D latex_paper_size=letter$/;"	m	language:Make
+PLATFORM	Makefile	/^PLATFORM := $(shell uname -s | awk '{print tolower($0)}')$/;"	m	language:Make
+PYENV_HOME	Makefile	/^PYENV_HOME := $(DIR)\/.tox\/$(PYTHON_VERSION)-$(PLATFORM)\/$/;"	m	language:Make
+PYTHON_PATH	Makefile	/^PYTHON_PATH := $(shell which python)$/;"	m	language:Make
+PYTHON_VERSION	Makefile	/^PYTHON_VERSION := $(shell python3 -c "import sys; print('py%s%s' % sys.version_info[0:2] + ('-conda' if 'conda' in sys.version or 'Continuum' in sys.version else ''))")$/;"	m	language:Make
+PrioritiesTests	tests/tests.py	/^class PrioritiesTests(unittest.TestCase):$/;"	c	language:Python
+Priority	jira/resources.py	/^class Priority(Resource):$/;"	c	language:Python
+Project	jira/resources.py	/^class Project(Resource):$/;"	c	language:Python
+ProjectTests	tests/tests.py	/^class ProjectTests(unittest.TestCase):$/;"	c	language:Python
+QshGenerator	jira/client.py	/^class QshGenerator:$/;"	c	language:Python
+RemoteLink	jira/resources.py	/^class RemoteLink(Resource):$/;"	c	language:Python
+ResilientSession	jira/resilientsession.py	/^class ResilientSession(Session):$/;"	c	language:Python
+Resolution	jira/resources.py	/^class Resolution(Resource):$/;"	c	language:Python
+ResolutionTests	tests/tests.py	/^class ResolutionTests(unittest.TestCase):$/;"	c	language:Python
+Resource	jira/resources.py	/^class Resource(object):$/;"	c	language:Python
+ResourceTests	tests/tests.py	/^class ResourceTests(unittest.TestCase):$/;"	c	language:Python
+ResultList	jira/client.py	/^class ResultList(list):$/;"	c	language:Python
+Role	jira/resources.py	/^class Role(Resource):$/;"	c	language:Python
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m	language:Make
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    =$/;"	m	language:Make
+SearchTests	tests/tests.py	/^class SearchTests(unittest.TestCase):$/;"	c	language:Python
+SecurityLevel	jira/resources.py	/^class SecurityLevel(Resource):$/;"	c	language:Python
+SecurityLevelTests	tests/tests.py	/^class SecurityLevelTests(unittest.TestCase):$/;"	c	language:Python
+ServerInfoTests	tests/tests.py	/^class ServerInfoTests(unittest.TestCase):$/;"	c	language:Python
+SessionTests	tests/tests.py	/^class SessionTests(unittest.TestCase):$/;"	c	language:Python
+Singleton	tests/tests.py	/^class Singleton(type):$/;"	c	language:Python
+Sprint	jira/resources.py	/^class Sprint(GreenHopperResource):$/;"	c	language:Python
+Status	jira/resources.py	/^class Status(Resource):$/;"	c	language:Python
+StatusTests	tests/tests.py	/^class StatusTests(unittest.TestCase):$/;"	c	language:Python
+TEST_ATTACH_PATH	tests/tests.py	/^TEST_ATTACH_PATH = os.path.join(TEST_ROOT, 'tests.py')$/;"	v	language:Python
+TEST_ICON_PATH	tests/tests.py	/^TEST_ICON_PATH = os.path.join(TEST_ROOT, 'icon.png')$/;"	v	language:Python
+TEST_ROOT	tests/tests.py	/^TEST_ROOT = os.path.dirname(__file__)$/;"	v	language:Python
+TimeTracking	jira/resources.py	/^class TimeTracking(Resource):$/;"	c	language:Python
+UniversalResourceTests	tests/tests.py	/^class UniversalResourceTests(unittest.TestCase):$/;"	c	language:Python
+User	jira/resources.py	/^class User(Resource):$/;"	c	language:Python
+UserAdministrationTests	tests/tests.py	/^class UserAdministrationTests(unittest.TestCase):$/;"	c	language:Python
+UserTests	tests/tests.py	/^class UserTests(unittest.TestCase):$/;"	c	language:Python
+Version	jira/resources.py	/^class Version(Resource):$/;"	c	language:Python
+VersionTests	tests/tests.py	/^class VersionTests(unittest.TestCase):$/;"	c	language:Python
+Votes	jira/resources.py	/^class Votes(Resource):$/;"	c	language:Python
+Watchers	jira/resources.py	/^class Watchers(Resource):$/;"	c	language:Python
+WebsudoTests	tests/tests.py	/^class WebsudoTests(unittest.TestCase):$/;"	c	language:Python
+Worklog	jira/resources.py	/^class Worklog(Resource):$/;"	c	language:Python
+_CacheInfo	jira/utils/lru_cache.py	/^    _CacheInfo = namedtuple("CacheInfo", ["hits", "misses", "maxsize", "currsize"])$/;"	v	language:Python
+_HashedSeq	jira/utils/lru_cache.py	/^    class _HashedSeq(list):$/;"	c	language:Python
+_IssueFields	jira/resources.py	/^    class _IssueFields:$/;"	c	language:Python	class:Issue
+_READABLE_IDS	jira/resources.py	/^    _READABLE_IDS = ('displayName', 'key', 'name', 'filename', 'value',$/;"	v	language:Python	class:Resource
+__all__	jira/package_meta.py	/^__all__ = ($/;"	v	language:Python
+__author__	jira/package_meta.py	/^__author__ = 'Ben Speakmon'$/;"	v	language:Python
+__call__	jira/client.py	/^    def __call__(self, req):$/;"	m	language:Python	class:QshGenerator	file:
+__call__	tests/tests.py	/^    def __call__(cls, *args, **kw):$/;"	m	language:Python	class:Singleton	file:
+__contact__	jira/package_meta.py	/^__contact__ = 'ben.speakmon@gmail.com'$/;"	v	language:Python
+__del__	jira/client.py	/^    def __del__(self):$/;"	m	language:Python	class:JIRA	file:
+__eq__	jira/resources.py	/^    def __eq__(self, other):$/;"	m	language:Python	class:Issue	file:
+__eq__	jira/resources.py	/^    def __eq__(self, other):$/;"	m	language:Python	class:User	file:
+__eq__	jira/resources.py	/^    def __eq__(self, other):$/;"	m	language:Python	class:Version	file:
+__getattr__	jira/resources.py	/^    def __getattr__(self, item):$/;"	m	language:Python	class:Resource	file:
+__hash__	jira/resources.py	/^    def __hash__(self):$/;"	m	language:Python	class:User	file:
+__hash__	jira/utils/lru_cache.py	/^        def __hash__(self):$/;"	m	language:Python	class:_HashedSeq	file:
+__homepage__	jira/package_meta.py	/^__homepage__ = "https:\/\/github.com\/pycontribs\/jira"$/;"	v	language:Python
+__init__	jira/client.py	/^    def __init__(self, context_path):$/;"	m	language:Python	class:QshGenerator
+__init__	jira/client.py	/^    def __init__(self, iterable=None, _startAt=None, _maxResults=None, _total=None, _isLast=None):$/;"	m	language:Python	class:ResultList
+__init__	jira/client.py	/^    def __init__(self, options=None, basic_auth=None, oauth=None, async=None):$/;"	m	language:Python	class:GreenHopper
+__init__	jira/client.py	/^    def __init__(self, server=None, options=None, basic_auth=None, oauth=None, jwt=None, kerberos=False,$/;"	m	language:Python	class:JIRA
+__init__	jira/exceptions.py	/^    def __init__(self, status_code=None, text=None, url=None, request=None, response=None, **kwargs):$/;"	m	language:Python	class:JIRAError
+__init__	jira/resilientsession.py	/^    def __init__(self):$/;"	m	language:Python	class:ResilientSession
+__init__	jira/resources.py	/^        def __init__(self):$/;"	m	language:Python	class:Issue._IssueFields
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Attachment
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Board
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Comment
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Component
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:CustomFieldOption
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Dashboard
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Filter
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Issue
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:IssueLink
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:IssueLinkType
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:IssueType
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Priority
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Project
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:RemoteLink
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Resolution
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Role
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:SecurityLevel
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Sprint
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Status
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:TimeTracking
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:User
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Version
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Votes
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Watchers
+__init__	jira/resources.py	/^    def __init__(self, options, session, raw=None):$/;"	m	language:Python	class:Worklog
+__init__	jira/resources.py	/^    def __init__(self, path, options, session, raw):$/;"	m	language:Python	class:GreenHopperResource
+__init__	jira/resources.py	/^    def __init__(self, resource, options, session, base_url=JIRA_BASE_URL):$/;"	m	language:Python	class:Resource
+__init__	jira/utils/__init__.py	/^    def __init__(self, *args, **kw):$/;"	m	language:Python	class:CaseInsensitiveDict
+__init__	jira/utils/lru_cache.py	/^        def __init__(self, tup, hash=hash):$/;"	m	language:Python	class:_HashedSeq
+__init__	tests/tests.py	/^    def __init__(cls, name, bases, dict):$/;"	m	language:Python	class:Singleton
+__init__	tests/tests.py	/^    def __init__(self):$/;"	m	language:Python	class:JiraTestManager
+__license__	jira/package_meta.py	/^__license__ = "BSD"$/;"	v	language:Python
+__recoverable	jira/resilientsession.py	/^    def __recoverable(self, response, url, request, counter=1):$/;"	m	language:Python	class:ResilientSession	file:
+__repr__	jira/resources.py	/^    def __repr__(self):$/;"	m	language:Python	class:Resource	file:
+__setitem__	jira/utils/__init__.py	/^    def __setitem__(self, key, value):$/;"	m	language:Python	class:CaseInsensitiveDict	file:
+__shared_state	tests/tests.py	/^    __shared_state = {}$/;"	v	language:Python	class:JiraTestManager
+__slots__	jira/utils/lru_cache.py	/^        __slots__ = 'hashvalue'$/;"	v	language:Python	class:_HashedSeq
+__str__	jira/exceptions.py	/^    def __str__(self):$/;"	m	language:Python	class:JIRAError	file:
+__str__	jira/resources.py	/^    def __str__(self):$/;"	m	language:Python	class:Resource	file:
+__verb	jira/resilientsession.py	/^    def __verb(self, verb, url, retry_data=None, **kwargs):$/;"	m	language:Python	class:ResilientSession	file:
+__version__	jira/package_meta.py	/^__version__ = get_version()$/;"	v	language:Python
+_check_for_html_error	jira/client.py	/^    def _check_for_html_error(self, content):$/;"	m	language:Python	class:JIRA
+_check_update_	jira/client.py	/^    def _check_update_(self):$/;"	m	language:Python	class:JIRA
+_create_http_basic_session	jira/client.py	/^    def _create_http_basic_session(self, username, password):$/;"	m	language:Python	class:JIRA
+_create_jwt_session	jira/client.py	/^    def _create_jwt_session(self, jwt):$/;"	m	language:Python	class:JIRA
+_create_kerberos_session	jira/client.py	/^    def _create_kerberos_session(self):$/;"	m	language:Python	class:JIRA
+_create_oauth_session	jira/client.py	/^    def _create_oauth_session(self, oauth):$/;"	m	language:Python	class:JIRA
+_default_headers	jira/resources.py	/^    def _default_headers(self, user_headers):$/;"	m	language:Python	class:Resource
+_fetch_pages	jira/client.py	/^    def _fetch_pages(self, item_type, items_key, request_path, startAt=0, maxResults=50, params=None, base=JIRA_BASE_URL):$/;"	m	language:Python	class:JIRA
+_find_for_resource	jira/client.py	/^    def _find_for_resource(self, resource_cls, ids, expand=None):$/;"	m	language:Python	class:JIRA
+_gain_sudo_session	jira/client.py	/^    def _gain_sudo_session(self, options, destination):$/;"	m	language:Python	class:JIRA
+_get_json	jira/client.py	/^    def _get_json(self, path, params=None, base=JIRA_BASE_URL):$/;"	m	language:Python	class:JIRA
+_get_mime_type	jira/client.py	/^    def _get_mime_type(self, buff):$/;"	m	language:Python	class:JIRA
+_get_template_list	jira/client.py	/^def _get_template_list(data):$/;"	f	language:Python
+_get_url	jira/client.py	/^    def _get_url(self, path, base=JIRA_BASE_URL):$/;"	m	language:Python	class:JIRA
+_get_url	jira/resources.py	/^    def _get_url(self, path):$/;"	m	language:Python	class:Resource
+_is_ordereddict_needed	setup.py	/^def _is_ordereddict_needed():$/;"	f	language:Python
+_load	jira/resources.py	/^    def _load(self, url, headers=CaseInsensitiveDict(), params=None, path=None):$/;"	m	language:Python	class:Resource
+_make_key	jira/utils/lru_cache.py	/^    def _make_key(args, kwds, typed,$/;"	f	language:Python
+_parse_raw	jira/resources.py	/^    def _parse_raw(self, raw):$/;"	m	language:Python	class:Resource
+_set_avatar	jira/client.py	/^    def _set_avatar(self, params, url, avatar):$/;"	m	language:Python	class:JIRA
+_timestamp	jira/client.py	/^    def _timestamp(dt=None):$/;"	m	language:Python	class:JIRA
+_try_magic	jira/client.py	/^    def _try_magic(self):$/;"	m	language:Python	class:JIRA
+add_attachment	jira/client.py	/^    def add_attachment(self, issue, attachment, filename=None):$/;"	m	language:Python	class:JIRA
+add_comment	jira/client.py	/^    def add_comment(self, issue, body, visibility=None):$/;"	m	language:Python	class:JIRA
+add_field_value	jira/resources.py	/^    def add_field_value(self, field, value):$/;"	m	language:Python	class:Issue
+add_group	jira/client.py	/^    def add_group(self, groupname):$/;"	m	language:Python	class:JIRA
+add_issues_to_epic	jira/client.py	/^    def add_issues_to_epic(self, epic_id, issue_keys, ignore_epics=True):$/;"	m	language:Python	class:JIRA
+add_issues_to_sprint	jira/client.py	/^    def add_issues_to_sprint(self, sprint_id, issue_keys):$/;"	m	language:Python	class:JIRA
+add_remote_link	jira/client.py	/^    def add_remote_link(self, issue, destination, globalId=None, application=None, relationship=None):$/;"	m	language:Python	class:JIRA
+add_simple_link	jira/client.py	/^    def add_simple_link(self, issue, object):$/;"	m	language:Python	class:JIRA
+add_user	jira/client.py	/^    def add_user(self, username, email, directoryId=1, password=None,$/;"	m	language:Python	class:JIRA
+add_user_to_group	jira/client.py	/^    def add_user_to_group(self, username, group):$/;"	m	language:Python	class:JIRA
+add_vote	jira/client.py	/^    def add_vote(self, issue):$/;"	m	language:Python	class:JIRA
+add_watcher	jira/client.py	/^    def add_watcher(self, issue, watcher):$/;"	m	language:Python	class:JIRA
+add_worklog	jira/client.py	/^    def add_worklog(self, issue, timeSpent=None, timeSpentSeconds=None, adjustEstimate=None,$/;"	m	language:Python	class:JIRA
+application_properties	jira/client.py	/^    def application_properties(self, key=None):$/;"	m	language:Python	class:JIRA
+applicationlinks	jira/client.py	/^    def applicationlinks(self, cached=True):$/;"	m	language:Python	class:JIRA
+assign_issue	jira/client.py	/^    def assign_issue(self, issue, assignee):$/;"	m	language:Python	class:JIRA
+async_do	jira/client.py	/^    def async_do(self, size=10):$/;"	m	language:Python	class:JIRA
+atl_comments	examples/basic_use.py	/^atl_comments = [comment for comment in issue.fields.comment.comments$/;"	v	language:Python
+attachment	jira/client.py	/^    def attachment(self, id):$/;"	m	language:Python	class:JIRA
+attachment_meta	jira/client.py	/^    def attachment_meta(self):$/;"	m	language:Python	class:JIRA
+autodoc_default_flags	docs/conf.py	/^autodoc_default_flags = ['members', 'undoc-members', 'show-inheritance']$/;"	v	language:Python
+backup	jira/client.py	/^    def backup(self, filename='backup.zip', attachments=False):$/;"	m	language:Python	class:JIRA
+backup_complete	jira/client.py	/^    def backup_complete(self):$/;"	m	language:Python	class:JIRA
+backup_download	jira/client.py	/^    def backup_download(self, filename=None):$/;"	m	language:Python	class:JIRA
+backup_progress	jira/client.py	/^    def backup_progress(self):$/;"	m	language:Python	class:JIRA
+base_path	setup.py	/^base_path = os.path.dirname(__file__)$/;"	v	language:Python
+board_id	examples/greenhopper.py	/^board_id = 441$/;"	v	language:Python
+boards	examples/greenhopper.py	/^boards = gh.boards()$/;"	v	language:Python
+boards	jira/client.py	/^    def boards(self, startAt=0, maxResults=50, type=None, name=None):$/;"	m	language:Python	class:JIRA
+bugtrack_url	setup.py	/^        bugtrack_url='https:\/\/github.com\/pycontribs\/jira\/issues',$/;"	v	language:Python
+cache_clear	jira/utils/lru_cache.py	/^            def cache_clear():$/;"	f	language:Python	function:lru_cache.decorating_function
+cache_info	jira/utils/lru_cache.py	/^            def cache_info():$/;"	f	language:Python	function:lru_cache.decorating_function
+checked_version	jira/client.py	/^    checked_version = False$/;"	v	language:Python	class:JIRA
+cl_admin	tests/test_client.py	/^def cl_admin(test_manager):$/;"	f	language:Python
+cl_normal	tests/test_client.py	/^def cl_normal(test_manager):$/;"	f	language:Python
+classifiers	setup.py	/^        classifiers=[$/;"	v	language:Python
+cleanup	jira/client.py	/^                def cleanup(x):$/;"	f	language:Python	function:JIRA._try_magic
+client_info	jira/client.py	/^    def client_info(self):$/;"	m	language:Python	class:JIRA
+cls_for_resource	jira/resources.py	/^def cls_for_resource(resource_literal):$/;"	f	language:Python
+cmd_folder	tests/tests.py	/^cmd_folder = os.path.abspath(os.path.join(os.path.split(inspect.getfile($/;"	v	language:Python
+comment	jira/client.py	/^    def comment(self, issue, comment):$/;"	m	language:Python	class:JIRA
+comments	jira/client.py	/^    def comments(self, issue):$/;"	m	language:Python	class:JIRA
+completedIssuesEstimateSum	jira/client.py	/^    def completedIssuesEstimateSum(self, board_id, sprint_id):$/;"	m	language:Python	class:JIRA
+completed_issues	jira/client.py	/^    def completed_issues(self, board_id, sprint_id):$/;"	m	language:Python	class:JIRA
+component	jira/client.py	/^    def component(self, id):$/;"	m	language:Python	class:JIRA
+component_count_related_issues	jira/client.py	/^    def component_count_related_issues(self, id):$/;"	m	language:Python	class:JIRA
+confirm_project_avatar	jira/client.py	/^    def confirm_project_avatar(self, project, cropping_properties):$/;"	m	language:Python	class:JIRA
+confirm_user_avatar	jira/client.py	/^    def confirm_user_avatar(self, user, cropping_properties):$/;"	m	language:Python	class:JIRA
+copyright	docs/conf.py	/^copyright = u'2012, Atlassian Pty Ltd.'$/;"	v	language:Python
+create_board	jira/client.py	/^    def create_board(self, name, project_ids, preset="scrum"):$/;"	m	language:Python	class:JIRA
+create_component	jira/client.py	/^    def create_component(self, name, project, description=None, leadUserName=None, assigneeType=None,$/;"	m	language:Python	class:JIRA
+create_filter	jira/client.py	/^    def create_filter(self, name=None, description=None,$/;"	m	language:Python	class:JIRA
+create_issue	jira/client.py	/^    def create_issue(self, fields=None, prefetch=True, **fieldargs):$/;"	m	language:Python	class:JIRA
+create_issue_link	jira/client.py	/^    def create_issue_link(self, type, inwardIssue, outwardIssue, comment=None):$/;"	m	language:Python	class:JIRA
+create_project	jira/client.py	/^    def create_project(self, key, name=None, assignee=None, type="Software", template_name=None):$/;"	m	language:Python	class:JIRA
+create_sprint	jira/client.py	/^    def create_sprint(self, name, board_id, startDate=None, endDate=None):$/;"	m	language:Python	class:JIRA
+create_temp_project_avatar	jira/client.py	/^    def create_temp_project_avatar(self, project, filename, size, avatar_img, contentType=None, auto_confirm=False):$/;"	m	language:Python	class:JIRA
+create_temp_user_avatar	jira/client.py	/^    def create_temp_user_avatar(self, user, filename, size, avatar_img, contentType=None, auto_confirm=False):$/;"	m	language:Python	class:JIRA
+create_version	jira/client.py	/^    def create_version(self, name, project, description=None, releaseDate=None, startDate=None, archived=False,$/;"	m	language:Python	class:JIRA
+createmeta	jira/client.py	/^    def createmeta(self, projectKeys=None, projectIds=[], issuetypeIds=None, issuetypeNames=None, expand=None):$/;"	m	language:Python	class:JIRA
+current_user	jira/client.py	/^    def current_user(self):$/;"	m	language:Python	class:JIRA
+custom_field_option	jira/client.py	/^    def custom_field_option(self, id):$/;"	m	language:Python	class:JIRA
+dashboard	jira/client.py	/^    def dashboard(self, id):$/;"	m	language:Python	class:JIRA
+dashboards	jira/client.py	/^    def dashboards(self, filter=None, startAt=0, maxResults=20):$/;"	m	language:Python	class:JIRA
+deactivate_user	jira/client.py	/^    def deactivate_user(self, username):$/;"	m	language:Python	class:JIRA
+decorating_function	jira/utils/lru_cache.py	/^        def decorating_function(user_function):$/;"	f	language:Python	function:lru_cache
+delete	jira/resilientsession.py	/^    def delete(self, url, **kwargs):$/;"	m	language:Python	class:ResilientSession
+delete	jira/resources.py	/^    def delete(self, adjustEstimate=None, newEstimate=None, increaseBy=None):$/;"	m	language:Python	class:Worklog
+delete	jira/resources.py	/^    def delete(self, deleteSubtasks=False):$/;"	m	language:Python	class:Issue
+delete	jira/resources.py	/^    def delete(self, moveFixIssuesTo=None, moveAffectedIssuesTo=None):$/;"	m	language:Python	class:Version
+delete	jira/resources.py	/^    def delete(self, moveIssuesTo=None):$/;"	m	language:Python	class:Component
+delete	jira/resources.py	/^    def delete(self, params=None):$/;"	m	language:Python	class:Board
+delete	jira/resources.py	/^    def delete(self, params=None):$/;"	m	language:Python	class:Resource
+delete	jira/resources.py	/^    def delete(self, username):$/;"	m	language:Python	class:Watchers
+delete_board	jira/client.py	/^    def delete_board(self, id):$/;"	m	language:Python	class:JIRA
+delete_issue_link	jira/client.py	/^    def delete_issue_link(self, id):$/;"	m	language:Python	class:JIRA
+delete_project	jira/client.py	/^    def delete_project(self, pid):$/;"	m	language:Python	class:JIRA
+delete_project_avatar	jira/client.py	/^    def delete_project_avatar(self, project, avatar):$/;"	m	language:Python	class:JIRA
+delete_user	jira/client.py	/^    def delete_user(self, username):$/;"	m	language:Python	class:JIRA
+delete_user_avatar	jira/client.py	/^    def delete_user_avatar(self, username, avatar):$/;"	m	language:Python	class:JIRA
+dict2resource	jira/resources.py	/^def dict2resource(raw, top=None, options=None, session=None):$/;"	f	language:Python
+dirname	tests/tests.py	/^    dirname = "test-reports-%s%s" % (sys.version_info[0], sys.version_info[1])$/;"	v	language:Python	class:UserAdministrationTests
+editmeta	jira/client.py	/^    def editmeta(self, issue):$/;"	m	language:Python	class:JIRA
+email_user	jira/client.py	/^    def email_user(self, user, body, title="JIRA Notification"):$/;"	m	language:Python	class:JIRA
+emit	jira/client.py	/^        def emit(self, record):$/;"	m	language:Python	class:NullHandler
+emit	jira/resilientsession.py	/^        def emit(self, record):$/;"	m	language:Python	class:NullHandler
+emit	jira/resources.py	/^        def emit(self, record):$/;"	m	language:Python	class:NullHandler
+entry_points	setup.py	/^        entry_points={$/;"	v	language:Python
+exclude_patterns	docs/conf.py	/^exclude_patterns = ['_build']$/;"	v	language:Python
+extensions	docs/conf.py	/^extensions = [$/;"	v	language:Python
+extras_require	setup.py	/^        extras_require={$/;"	v	language:Python
+favourite_filters	jira/client.py	/^    def favourite_filters(self):$/;"	m	language:Python	class:JIRA
+fields	jira/client.py	/^    def fields(self):$/;"	m	language:Python	class:JIRA
+file_stream	jira/client.py	/^            def file_stream():$/;"	f	language:Python	function:JIRA.add_attachment
+filter	jira/client.py	/^    def filter(self, id):$/;"	m	language:Python	class:JIRA
+find	jira/client.py	/^    def find(self, resource_format, ids=None):$/;"	m	language:Python	class:JIRA
+find	jira/resources.py	/^    def find(self, id, params=None):$/;"	m	language:Python	class:Resource
+find	jira/resources.py	/^    def find(self, id, params=None):$/;"	m	language:Python	class:Sprint
+find_by_id	tests/tests.py	/^def find_by_id(seq, id):$/;"	f	language:Python
+find_by_key	tests/tests.py	/^def find_by_key(seq, key):$/;"	f	language:Python
+find_by_key_value	tests/tests.py	/^def find_by_key_value(seq, key):$/;"	f	language:Python
+find_by_name	tests/tests.py	/^def find_by_name(seq, name):$/;"	f	language:Python
+find_selected_avatar	tests/tests.py	/^        def find_selected_avatar(avatars):$/;"	f	language:Python	function:ProjectTests.test_set_project_avatar
+find_selected_avatar	tests/tests.py	/^        def find_selected_avatar(avatars):$/;"	f	language:Python	function:UserTests.test_set_user_avatar
+find_transitionid_by_name	jira/client.py	/^    def find_transitionid_by_name(self, issue, transition_name):$/;"	m	language:Python	class:JIRA
+findfile	jira/config.py	/^    def findfile(path):$/;"	f	language:Python	function:get_jira
+get	jira/resilientsession.py	/^    def get(self, url, **kwargs):$/;"	m	language:Python	class:ResilientSession
+get	jira/resources.py	/^    def get(self):$/;"	m	language:Python	class:Attachment
+get_complete_version	jira/utils/version.py	/^def get_complete_version(version=None):$/;"	f	language:Python
+get_config	jira/jirashell.py	/^def get_config():$/;"	f	language:Python
+get_docs_version	jira/utils/version.py	/^def get_docs_version(version=None):$/;"	f	language:Python
+get_error_list	jira/resources.py	/^def get_error_list(r):$/;"	f	language:Python
+get_git_branch	jira/package_meta.py	/^def get_git_branch():$/;"	f	language:Python
+get_git_changeset	jira/package_meta.py	/^def get_git_changeset():$/;"	f	language:Python
+get_git_changeset	jira/utils/version.py	/^def get_git_changeset():$/;"	f	language:Python
+get_igrid	jira/client.py	/^    def get_igrid(self, issueid, customfield, schemeid):$/;"	m	language:Python	class:JIRA
+get_jira	jira/config.py	/^def get_jira(profile=None, url="http:\/\/localhost:2990", username="admin", password="admin", appid=None, autofix=False, verify=True):$/;"	f	language:Python
+get_main_version	jira/utils/version.py	/^def get_main_version(version=None):$/;"	f	language:Python
+get_metadata	setup.py	/^def get_metadata(*path):$/;"	f	language:Python
+get_requirements	setup.py	/^def get_requirements(*path):$/;"	f	language:Python
+get_version	jira/package_meta.py	/^def get_version(base_version=BASE_VERSION):$/;"	f	language:Python
+get_version	jira/utils/version.py	/^def get_version(version=None):$/;"	f	language:Python
+gh	examples/greenhopper.py	/^gh = GreenHopper(options)$/;"	v	language:Python
+group_members	jira/client.py	/^    def group_members(self, group):$/;"	m	language:Python	class:JIRA
+groups	jira/client.py	/^    def groups(self, query=None, exclude=None, maxResults=9999):$/;"	m	language:Python	class:JIRA
+head	jira/resilientsession.py	/^    def head(self, url, **kwargs):$/;"	m	language:Python	class:ResilientSession
+home_page	setup.py	/^        home_page='https:\/\/github.com\/pycontribs\/jira',$/;"	v	language:Python
+html_file_suffix	docs/conf.py	/^html_file_suffix = None$/;"	v	language:Python
+html_show_copyright	docs/conf.py	/^html_show_copyright = True$/;"	v	language:Python
+html_show_sourcelink	docs/conf.py	/^html_show_sourcelink = True$/;"	v	language:Python
+html_show_sphinx	docs/conf.py	/^html_show_sphinx = True$/;"	v	language:Python
+html_split_index	docs/conf.py	/^html_split_index = False$/;"	v	language:Python
+html_static_path	docs/conf.py	/^html_static_path = ['_static']$/;"	v	language:Python
+html_theme	docs/conf.py	/^html_theme = "sphinx_rtd_theme"$/;"	v	language:Python
+html_theme_path	docs/conf.py	/^html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]$/;"	v	language:Python
+html_use_opensearch	docs/conf.py	/^html_use_opensearch = ''$/;"	v	language:Python
+htmlhelp_basename	docs/conf.py	/^htmlhelp_basename = 'jirapythondoc'$/;"	v	language:Python
+include_package_data	setup.py	/^        include_package_data=True,$/;"	v	language:Python
+incompletedIssuesEstimateSum	jira/client.py	/^    def incompletedIssuesEstimateSum(self, board_id, sprint_id):$/;"	m	language:Python	class:JIRA
+incompleted_issues	examples/greenhopper.py	/^    incompleted_issues = gh.incompleted_issues(board_id, sprint_id)$/;"	v	language:Python
+incompleted_issues	jira/client.py	/^    def incompleted_issues(self, board_id, sprint_id):$/;"	m	language:Python	class:JIRA
+install_requires	setup.py	/^        install_requires=get_requirements(base_path, 'requirements.txt'),$/;"	v	language:Python
+intersphinx_mapping	docs/conf.py	/^intersphinx_mapping = {$/;"	v	language:Python
+is_prerelease_branch	jira/package_meta.py	/^def is_prerelease_branch():$/;"	f	language:Python
+issue	examples/basic_use.py	/^issue = jira.issue('JRA-1330')$/;"	v	language:Python
+issue	jira/client.py	/^    def issue(self, id, fields=None, expand=None):$/;"	m	language:Python	class:JIRA
+issue2	examples/basic_use.py	/^issue2 = jira.issue('XX-23')  # could also be another instance$/;"	v	language:Python
+issue_link	jira/client.py	/^    def issue_link(self, id):$/;"	m	language:Python	class:JIRA
+issue_link_type	jira/client.py	/^    def issue_link_type(self, id):$/;"	m	language:Python	class:JIRA
+issue_link_types	jira/client.py	/^    def issue_link_types(self):$/;"	m	language:Python	class:JIRA
+issue_type	jira/client.py	/^    def issue_type(self, id):$/;"	m	language:Python	class:JIRA
+issue_type_by_name	jira/client.py	/^    def issue_type_by_name(self, name):$/;"	m	language:Python	class:JIRA
+issue_types	jira/client.py	/^    def issue_types(self):$/;"	m	language:Python	class:JIRA
+issues	examples/basic_auth.py	/^issues = jira.search_issues('assignee=admin')$/;"	v	language:Python
+iter_content	jira/resources.py	/^    def iter_content(self, chunk_size=1024):$/;"	m	language:Python	class:Attachment
+jira	examples/basic_auth.py	/^jira = JIRA(basic_auth=('admin', 'admin'))    # a username\/password tuple$/;"	v	language:Python
+jira	examples/basic_use.py	/^jira = JIRA(options)$/;"	v	language:Python
+json_loads	jira/utils/__init__.py	/^def json_loads(r):$/;"	f	language:Python
+keys	examples/basic_use.py	/^keys = sorted([project.key for project in projects])[2:5]$/;"	v	language:Python
+keywords	setup.py	/^        keywords='jira atlassian rest api',$/;"	v	language:Python
+kill_session	jira/client.py	/^    def kill_session(self):$/;"	m	language:Python	class:JIRA
+kill_websudo	jira/client.py	/^    def kill_websudo(self):$/;"	m	language:Python	class:JIRA
+latex_documents	docs/conf.py	/^latex_documents = [$/;"	v	language:Python
+latex_elements	docs/conf.py	/^latex_elements = {$/;"	v	language:Python
+log_to_tempfile	jira/exceptions.py	/^        log_to_tempfile = False  # Travis is keeping only the console log.$/;"	v	language:Python	class:JIRAError
+log_to_tempfile	jira/exceptions.py	/^    log_to_tempfile = True$/;"	v	language:Python	class:JIRAError
+long_description	setup.py	/^        long_description=open("README.rst").read(),$/;"	v	language:Python
+lru_cache	jira/utils/lru_cache.py	/^    def lru_cache(maxsize=100, typed=False):$/;"	f	language:Python
+main	jira/jirashell.py	/^def main():$/;"	f	language:Python
+man_pages	docs/conf.py	/^man_pages = [$/;"	v	language:Python
+master_doc	docs/conf.py	/^master_doc = 'index'$/;"	v	language:Python
+move_to_backlog	jira/client.py	/^    def move_to_backlog(self, issue_keys):$/;"	m	language:Python	class:JIRA
+move_version	jira/client.py	/^    def move_version(self, id, after=None, position=None):$/;"	m	language:Python	class:JIRA
+my_permissions	jira/client.py	/^    def my_permissions(self, projectKey=None, projectId=None, issueKey=None, issueId=None):$/;"	m	language:Python	class:JIRA
+myself	jira/client.py	/^    def myself(self):$/;"	m	language:Python	class:JIRA
+name	setup.py	/^        name=NAME,$/;"	v	language:Python
+noop	tests/tests.py	/^    def noop(arg):$/;"	f	language:Python
+not_on_custom_jira_instance	tests/tests.py	/^    not_on_custom_jira_instance = noop$/;"	v	language:Python
+not_on_custom_jira_instance	tests/tests.py	/^    not_on_custom_jira_instance = pytest.mark.skipif(True, reason="Not applicable for custom JIRA instance")$/;"	v	language:Python
+oauth_dance	jira/jirashell.py	/^def oauth_dance(server, consumer_key, key_cert_data, print_tokens=False, verify=None):$/;"	f	language:Python
+options	examples/basic_use.py	/^options = {$/;"	v	language:Python
+options	examples/greenhopper.py	/^options = {$/;"	v	language:Python
+options	jira/resilientsession.py	/^    def options(self, url, **kwargs):$/;"	m	language:Python	class:ResilientSession
+packages	setup.py	/^        packages=find_packages(exclude=['tests', 'tools']),$/;"	v	language:Python
+patch	jira/resilientsession.py	/^    def patch(self, url, **kwargs):$/;"	m	language:Python	class:ResilientSession
+permalink	jira/resources.py	/^    def permalink(self):$/;"	m	language:Python	class:Issue
+post	jira/resilientsession.py	/^    def post(self, url, **kwargs):$/;"	m	language:Python	class:ResilientSession
+priorities	jira/client.py	/^    def priorities(self):$/;"	m	language:Python	class:JIRA
+priority	jira/client.py	/^    def priority(self, id):$/;"	m	language:Python	class:JIRA
+process_command_line	jira/jirashell.py	/^def process_command_line():$/;"	f	language:Python
+process_config	jira/jirashell.py	/^def process_config():$/;"	f	language:Python
+project	docs/conf.py	/^project = u'jira-python'$/;"	v	language:Python
+project	jira/client.py	/^    def project(self, id):$/;"	m	language:Python	class:JIRA
+project_avatars	jira/client.py	/^    def project_avatars(self, project):$/;"	m	language:Python	class:JIRA
+project_components	jira/client.py	/^    def project_components(self, project):$/;"	m	language:Python	class:JIRA
+project_role	jira/client.py	/^    def project_role(self, project, id):$/;"	m	language:Python	class:JIRA
+project_roles	jira/client.py	/^    def project_roles(self, project):$/;"	m	language:Python	class:JIRA
+project_versions	jira/client.py	/^    def project_versions(self, project):$/;"	m	language:Python	class:JIRA
+projects	examples/basic_use.py	/^projects = jira.projects()$/;"	v	language:Python
+projects	jira/client.py	/^    def projects(self):$/;"	m	language:Python	class:JIRA
+props	examples/basic_auth.py	/^props = jira.application_properties()$/;"	v	language:Python
+provides	setup.py	/^        provides=[NAME],$/;"	v	language:Python
+put	jira/resilientsession.py	/^    def put(self, url, **kwargs):$/;"	m	language:Python	class:ResilientSession
+pygments_style	docs/conf.py	/^pygments_style = 'sphinx'$/;"	v	language:Python
+raise_on_error	jira/resilientsession.py	/^def raise_on_error(r, verb='???', **kwargs):$/;"	f	language:Python
+rank	jira/client.py	/^    def rank(self, issue, next_issue):$/;"	m	language:Python	class:JIRA
+read	setup.py	/^def read(fname):$/;"	f	language:Python
+reindex	jira/client.py	/^    def reindex(self, force=False, background=True):$/;"	m	language:Python	class:JIRA
+release	docs/conf.py	/^release = __version__$/;"	v	language:Python
+remote_link	jira/client.py	/^    def remote_link(self, issue, id):$/;"	m	language:Python	class:JIRA
+remote_links	jira/client.py	/^    def remote_links(self, issue):$/;"	m	language:Python	class:JIRA
+remove_by_slug	tests/test_client.py	/^    def remove_by_slug():$/;"	f	language:Python	function:slug
+remove_group	jira/client.py	/^    def remove_group(self, groupname):$/;"	m	language:Python	class:JIRA
+remove_user_from_group	jira/client.py	/^    def remove_user_from_group(self, username, groupname):$/;"	m	language:Python	class:JIRA
+remove_vote	jira/client.py	/^    def remove_vote(self, issue):$/;"	m	language:Python	class:JIRA
+remove_watcher	jira/client.py	/^    def remove_watcher(self, issue, watcher):$/;"	m	language:Python	class:JIRA
+removedIssuesEstimateSum	jira/client.py	/^    def removedIssuesEstimateSum(self, board_id, sprint_id):$/;"	m	language:Python	class:JIRA
+removed_issues	jira/client.py	/^    def removed_issues(self, board_id, sprint_id):$/;"	m	language:Python	class:JIRA
+rename_user	jira/client.py	/^    def rename_user(self, old_user, new_user):$/;"	m	language:Python	class:JIRA
+resolution	jira/client.py	/^    def resolution(self, id):$/;"	m	language:Python	class:JIRA
+resolutions	jira/client.py	/^    def resolutions(self):$/;"	m	language:Python	class:JIRA
+resource_class_map	jira/resources.py	/^resource_class_map = {$/;"	v	language:Python
+rndpassword	tests/tests.py	/^def rndpassword():$/;"	f	language:Python
+rndstr	tests/tests.py	/^def rndstr():$/;"	f	language:Python
+run_but_ignore_errors	jira/package_meta.py	/^def run_but_ignore_errors(*args, **kwargs):$/;"	f	language:Python
+search_allowed_users_for_issue	jira/client.py	/^    def search_allowed_users_for_issue(self, user, issueKey=None, projectKey=None, startAt=0, maxResults=50):$/;"	m	language:Python	class:JIRA
+search_assignable_users_for_issues	jira/client.py	/^    def search_assignable_users_for_issues(self, username, project=None, issueKey=None, expand=None, startAt=0,$/;"	m	language:Python	class:JIRA
+search_assignable_users_for_projects	jira/client.py	/^    def search_assignable_users_for_projects(self, username, projectKeys, startAt=0, maxResults=50):$/;"	m	language:Python	class:JIRA
+search_issues	jira/client.py	/^    def search_issues(self, jql_str, startAt=0, maxResults=50, validate_query=True, fields=None, expand=None,$/;"	m	language:Python	class:JIRA
+search_users	jira/client.py	/^    def search_users(self, user, startAt=0, maxResults=50, includeActive=True, includeInactive=False):$/;"	m	language:Python	class:JIRA
+security_level	jira/client.py	/^    def security_level(self, id):$/;"	m	language:Python	class:JIRA
+server_info	jira/client.py	/^    def server_info(self):$/;"	m	language:Python	class:JIRA
+session	jira/client.py	/^    def session(self):$/;"	m	language:Python	class:JIRA
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:ApplicationPropertiesTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:AttachmentTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:ComponentTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:CustomFieldOptionTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:DashboardTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:FieldsTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:FilterTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:GroupsTest
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:IssueLinkTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:IssueTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:MyPermissionsTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:PrioritiesTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:ProjectTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:ResolutionTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:ResourceTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:SearchTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:SecurityLevelTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:ServerInfoTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:SessionTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:StatusTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:UniversalResourceTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:UserAdministrationTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:UserTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:VersionTests
+setUp	tests/tests.py	/^    def setUp(self):$/;"	m	language:Python	class:WebsudoTests
+set_application_property	jira/client.py	/^    def set_application_property(self, key, value):$/;"	m	language:Python	class:JIRA
+set_project_avatar	jira/client.py	/^    def set_project_avatar(self, project, avatar):$/;"	m	language:Python	class:JIRA
+set_user_avatar	jira/client.py	/^    def set_user_avatar(self, username, avatar):$/;"	m	language:Python	class:JIRA
+setup_metadata	jira/package_meta.py	/^setup_metadata = {$/;"	v	language:Python
+setup_requires	setup.py	/^        setup_requires=['pytest-runner'],$/;"	v	language:Python
+slug	tests/test_client.py	/^def slug(request, cl_admin):$/;"	f	language:Python
+source_suffix	docs/conf.py	/^source_suffix = '.rst'$/;"	v	language:Python
+sprint	jira/client.py	/^    def sprint(self, id):$/;"	m	language:Python	class:JIRA
+sprint_id	examples/greenhopper.py	/^    sprint_id = sprint.id$/;"	v	language:Python
+sprint_info	jira/client.py	/^    def sprint_info(self, board_id, sprint_id):$/;"	m	language:Python	class:JIRA
+sprints	examples/greenhopper.py	/^sprints = gh.sprints(board_id)$/;"	v	language:Python
+sprints	jira/client.py	/^    def sprints(self, board_id, extended=False, startAt=0, maxResults=50, state=None):$/;"	m	language:Python	class:JIRA
+sprints_by_name	jira/client.py	/^    def sprints_by_name(self, id, extended=False):$/;"	m	language:Python	class:JIRA
+status	jira/client.py	/^    def status(self, id):$/;"	m	language:Python	class:JIRA
+status	jira/jirashell.py	/^    status = main()$/;"	v	language:Python
+statuses	jira/client.py	/^    def statuses(self):$/;"	m	language:Python	class:JIRA
+templates_path	docs/conf.py	/^templates_path = ['_templates']$/;"	v	language:Python
+test_0_attachment_meta	tests/tests.py	/^    def test_0_attachment_meta(self):$/;"	m	language:Python	class:AttachmentTests
+test_1_add_remove_attachment	tests/tests.py	/^    def test_1_add_remove_attachment(self):$/;"	m	language:Python	class:AttachmentTests
+test_2_create_component	tests/tests.py	/^    def test_2_create_component(self):$/;"	m	language:Python	class:ComponentTests
+test_3_update	tests/tests.py	/^    def test_3_update(self):$/;"	m	language:Python	class:ComponentTests
+test_4_delete	tests/tests.py	/^    def test_4_delete(self):$/;"	m	language:Python	class:ComponentTests
+test_add_and_remove_user	tests/tests.py	/^    def test_add_and_remove_user(self):$/;"	m	language:Python	class:UserAdministrationTests
+test_add_comment	tests/tests.py	/^    def test_add_comment(self):$/;"	m	language:Python	class:IssueTests
+test_add_comment_with_issue_obj	tests/tests.py	/^    def test_add_comment_with_issue_obj(self):$/;"	m	language:Python	class:IssueTests
+test_add_group	tests/tests.py	/^    def test_add_group(self):$/;"	m	language:Python	class:UserAdministrationTests
+test_add_remove_watcher	tests/tests.py	/^    def test_add_remove_watcher(self):$/;"	m	language:Python	class:IssueTests
+test_add_user_to_group	tests/tests.py	/^    def test_add_user_to_group(self):$/;"	m	language:Python	class:UserAdministrationTests
+test_add_users_to_set	tests/tests.py	/^    def test_add_users_to_set(self):$/;"	m	language:Python	class:UserTests
+test_add_worklog	tests/tests.py	/^    def test_add_worklog(self):$/;"	m	language:Python	class:IssueTests
+test_add_worklog_with_issue_obj	tests/tests.py	/^    def test_add_worklog_with_issue_obj(self):$/;"	m	language:Python	class:IssueTests
+test_agile	tests/tests.py	/^    def test_agile(self):$/;"	m	language:Python	class:IssueTests
+test_application_properties	tests/tests.py	/^    def test_application_properties(self):$/;"	m	language:Python	class:ApplicationPropertiesTests
+test_application_property	tests/tests.py	/^    def test_application_property(self):$/;"	m	language:Python	class:ApplicationPropertiesTests
+test_assign_issue	tests/tests.py	/^    def test_assign_issue(self):$/;"	m	language:Python	class:IssueTests
+test_assign_issue_with_issue_obj	tests/tests.py	/^    def test_assign_issue_with_issue_obj(self):$/;"	m	language:Python	class:IssueTests
+test_assign_to_bad_issue_raises	tests/tests.py	/^    def test_assign_to_bad_issue_raises(self):$/;"	m	language:Python	class:IssueTests
+test_cls_for_resource	tests/tests.py	/^    def test_cls_for_resource(self):$/;"	m	language:Python	class:ResourceTests
+test_comments	tests/tests.py	/^    def test_comments(self):$/;"	m	language:Python	class:IssueTests
+test_create_issue_link	tests/tests.py	/^    def test_create_issue_link(self):$/;"	m	language:Python	class:IssueLinkTests
+test_create_issue_link_with_issue_objs	tests/tests.py	/^    def test_create_issue_link_with_issue_objs(self):$/;"	m	language:Python	class:IssueLinkTests
+test_create_issue_with_fieldargs	tests/tests.py	/^    def test_create_issue_with_fieldargs(self):$/;"	m	language:Python	class:IssueTests
+test_create_issue_with_fielddict	tests/tests.py	/^    def test_create_issue_with_fielddict(self):$/;"	m	language:Python	class:IssueTests
+test_create_issue_without_prefetch	tests/tests.py	/^    def test_create_issue_without_prefetch(self):$/;"	m	language:Python	class:IssueTests
+test_create_version	tests/tests.py	/^    def test_create_version(self):$/;"	m	language:Python	class:VersionTests
+test_create_version_with_project_obj	tests/tests.py	/^    def test_create_version_with_project_obj(self):$/;"	m	language:Python	class:VersionTests
+test_createmeta	tests/tests.py	/^    def test_createmeta(self):$/;"	m	language:Python	class:IssueTests
+test_createmeta_expando	tests/tests.py	/^    def test_createmeta_expando(self):$/;"	m	language:Python	class:IssueTests
+test_createmeta_filter_by_id	tests/tests.py	/^    def test_createmeta_filter_by_id(self):$/;"	m	language:Python	class:IssueTests
+test_createmeta_filter_by_projectkey_and_name	tests/tests.py	/^    def test_createmeta_filter_by_projectkey_and_name(self):$/;"	m	language:Python	class:IssueTests
+test_createmeta_filter_by_projectkeys_and_name	tests/tests.py	/^    def test_createmeta_filter_by_projectkeys_and_name(self):$/;"	m	language:Python	class:IssueTests
+test_custom_field_option	tests/tests.py	/^    def test_custom_field_option(self):$/;"	m	language:Python	class:CustomFieldOptionTests
+test_dashboard	tests/tests.py	/^    def test_dashboard(self):$/;"	m	language:Python	class:DashboardTests
+test_dashboards	tests/tests.py	/^    def test_dashboards(self):$/;"	m	language:Python	class:DashboardTests
+test_dashboards_filter	tests/tests.py	/^    def test_dashboards_filter(self):$/;"	m	language:Python	class:DashboardTests
+test_dashboards_maxresults	tests/tests.py	/^    def test_dashboards_maxresults(self):$/;"	m	language:Python	class:DashboardTests
+test_dashboards_startat	tests/tests.py	/^    def test_dashboards_startat(self):$/;"	m	language:Python	class:DashboardTests
+test_delete	tests/tests.py	/^    def test_delete(self):$/;"	m	language:Python	class:IssueTests
+test_delete	tests/tests.py	/^    def test_delete(self):$/;"	m	language:Python	class:VersionTests
+test_delete_inexistant_project	tests/test_client.py	/^def test_delete_inexistant_project(cl_admin):$/;"	f	language:Python
+test_delete_project	tests/test_client.py	/^def test_delete_project(cl_admin, slug):$/;"	f	language:Python
+test_delete_user_avatar	tests/tests.py	/^    def test_delete_user_avatar(self):$/;"	m	language:Python	class:UserTests
+test_editmeta	tests/tests.py	/^    def test_editmeta(self):$/;"	m	language:Python	class:IssueTests
+test_favourite_filters	tests/tests.py	/^    def test_favourite_filters(self):$/;"	m	language:Python	class:FilterTests
+test_fields	tests/tests.py	/^    def test_fields(self):$/;"	m	language:Python	class:FieldsTests
+test_filter	tests/tests.py	/^    def test_filter(self):$/;"	m	language:Python	class:FilterTests
+test_find_invalid_resource_raises_exception	tests/tests.py	/^    def test_find_invalid_resource_raises_exception(self):$/;"	m	language:Python	class:UniversalResourceTests
+test_groups	tests/tests.py	/^    def test_groups(self):$/;"	m	language:Python	class:GroupsTest
+test_groups_for_users	tests/tests.py	/^    def test_groups_for_users(self):$/;"	m	language:Python	class:GroupsTest
+test_issue	tests/tests.py	/^    def test_issue(self):$/;"	m	language:Python	class:IssueTests
+test_issue_equal	tests/tests.py	/^    def test_issue_equal(self):$/;"	m	language:Python	class:IssueTests
+test_issue_expandos	tests/tests.py	/^    def test_issue_expandos(self):$/;"	m	language:Python	class:IssueTests
+test_issue_field_limiting	tests/tests.py	/^    def test_issue_field_limiting(self):$/;"	m	language:Python	class:IssueTests
+test_issue_link	tests/tests.py	/^    def test_issue_link(self):$/;"	m	language:Python	class:IssueLinkTests
+test_issue_link_type	tests/tests.py	/^    def test_issue_link_type(self):$/;"	m	language:Python	class:IssueLinkTests
+test_kill_websudo	tests/tests.py	/^    def test_kill_websudo(self):$/;"	m	language:Python	class:WebsudoTests
+test_manager	tests/test_client.py	/^def test_manager():$/;"	f	language:Python
+test_my_permissions	tests/tests.py	/^    def test_my_permissions(self):$/;"	m	language:Python	class:MyPermissionsTests
+test_my_permissions_by_issue	tests/tests.py	/^    def test_my_permissions_by_issue(self):$/;"	m	language:Python	class:MyPermissionsTests
+test_my_permissions_by_project	tests/tests.py	/^    def test_my_permissions_by_project(self):$/;"	m	language:Python	class:MyPermissionsTests
+test_no_rights_to_delete_project	tests/test_client.py	/^def test_no_rights_to_delete_project(cl_normal, slug):$/;"	f	language:Python
+test_pickling_resource	tests/tests.py	/^    def test_pickling_resource(self):$/;"	m	language:Python	class:UniversalResourceTests
+test_priorities	tests/tests.py	/^    def test_priorities(self):$/;"	m	language:Python	class:PrioritiesTests
+test_priority	tests/tests.py	/^    def test_priority(self):$/;"	m	language:Python	class:PrioritiesTests
+test_project	tests/tests.py	/^    def test_project(self):$/;"	m	language:Python	class:ProjectTests
+test_project_components	tests/tests.py	/^    def test_project_components(self):$/;"	m	language:Python	class:ProjectTests
+test_project_roles	tests/tests.py	/^    def test_project_roles(self):$/;"	m	language:Python	class:ProjectTests
+test_project_versions	tests/tests.py	/^    def test_project_versions(self):$/;"	m	language:Python	class:ProjectTests
+test_project_versions_with_project_obj	tests/tests.py	/^    def test_project_versions_with_project_obj(self):$/;"	m	language:Python	class:ProjectTests
+test_projects	tests/tests.py	/^    def test_projects(self):$/;"	m	language:Python	class:ProjectTests
+test_remove_group	tests/tests.py	/^    def test_remove_group(self):$/;"	m	language:Python	class:UserAdministrationTests
+test_remove_user_from_group	tests/tests.py	/^    def test_remove_user_from_group(self):$/;"	m	language:Python	class:UserAdministrationTests
+test_resolution	tests/tests.py	/^    def test_resolution(self):$/;"	m	language:Python	class:ResolutionTests
+test_resolutions	tests/tests.py	/^    def test_resolutions(self):$/;"	m	language:Python	class:ResolutionTests
+test_search_allowed_users_for_issue_by_issue	tests/tests.py	/^    def test_search_allowed_users_for_issue_by_issue(self):$/;"	m	language:Python	class:UserTests
+test_search_allowed_users_for_issue_by_project	tests/tests.py	/^    def test_search_allowed_users_for_issue_by_project(self):$/;"	m	language:Python	class:UserTests
+test_search_allowed_users_for_issue_maxresults	tests/tests.py	/^    def test_search_allowed_users_for_issue_maxresults(self):$/;"	m	language:Python	class:UserTests
+test_search_allowed_users_for_issue_startat	tests/tests.py	/^    def test_search_allowed_users_for_issue_startat(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_issues_by_issue	tests/tests.py	/^    def test_search_assignable_users_for_issues_by_issue(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_issues_by_issue_maxresults	tests/tests.py	/^    def test_search_assignable_users_for_issues_by_issue_maxresults(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_issues_by_issue_startat	tests/tests.py	/^    def test_search_assignable_users_for_issues_by_issue_startat(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_issues_by_project	tests/tests.py	/^    def test_search_assignable_users_for_issues_by_project(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_issues_by_project_maxresults	tests/tests.py	/^    def test_search_assignable_users_for_issues_by_project_maxresults(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_issues_by_project_startat	tests/tests.py	/^    def test_search_assignable_users_for_issues_by_project_startat(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_projects	tests/tests.py	/^    def test_search_assignable_users_for_projects(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_projects_maxresults	tests/tests.py	/^    def test_search_assignable_users_for_projects_maxresults(self):$/;"	m	language:Python	class:UserTests
+test_search_assignable_users_for_projects_startat	tests/tests.py	/^    def test_search_assignable_users_for_projects_startat(self):$/;"	m	language:Python	class:UserTests
+test_search_issues	tests/tests.py	/^    def test_search_issues(self):$/;"	m	language:Python	class:SearchTests
+test_search_issues_expandos	tests/tests.py	/^    def test_search_issues_expandos(self):$/;"	m	language:Python	class:SearchTests
+test_search_issues_field_limiting	tests/tests.py	/^    def test_search_issues_field_limiting(self):$/;"	m	language:Python	class:SearchTests
+test_search_issues_maxresults	tests/tests.py	/^    def test_search_issues_maxresults(self):$/;"	m	language:Python	class:SearchTests
+test_search_issues_startat	tests/tests.py	/^    def test_search_issues_startat(self):$/;"	m	language:Python	class:SearchTests
+test_search_users	tests/tests.py	/^    def test_search_users(self):$/;"	m	language:Python	class:UserTests
+test_search_users_maxresults	tests/tests.py	/^    def test_search_users_maxresults(self):$/;"	m	language:Python	class:UserTests
+test_security_level	tests/tests.py	/^    def test_security_level(self):$/;"	m	language:Python	class:SecurityLevelTests
+test_server_info	tests/tests.py	/^    def test_server_info(self):$/;"	m	language:Python	class:ServerInfoTests
+test_session	tests/tests.py	/^    def test_session(self):$/;"	m	language:Python	class:SessionTests
+test_session_invalid_login	tests/tests.py	/^    def test_session_invalid_login(self):$/;"	m	language:Python	class:OtherTests
+test_session_server_offline	tests/tests.py	/^    def test_session_server_offline(self):$/;"	m	language:Python	class:SessionTests
+test_session_with_no_logged_in_user_raises	tests/tests.py	/^    def test_session_with_no_logged_in_user_raises(self):$/;"	m	language:Python	class:SessionTests
+test_set_application_property	tests/tests.py	/^    def test_set_application_property(self):$/;"	m	language:Python	class:ApplicationPropertiesTests
+test_set_project_avatar	tests/tests.py	/^    def test_set_project_avatar(self):$/;"	m	language:Python	class:ProjectTests
+test_set_user_avatar	tests/tests.py	/^    def test_set_user_avatar(self):$/;"	m	language:Python	class:UserTests
+test_setting_bad_property_raises	tests/tests.py	/^    def test_setting_bad_property_raises(self):$/;"	m	language:Python	class:ApplicationPropertiesTests
+test_status	tests/tests.py	/^    def test_status(self):$/;"	m	language:Python	class:StatusTests
+test_statuses	tests/tests.py	/^    def test_statuses(self):$/;"	m	language:Python	class:StatusTests
+test_template_list	tests/test_client.py	/^def test_template_list():$/;"	f	language:Python
+test_transitioning	tests/tests.py	/^    def test_transitioning(self):$/;"	m	language:Python	class:IssueTests
+test_universal_find_existing_resource	tests/tests.py	/^    def test_universal_find_existing_resource(self):$/;"	m	language:Python	class:UniversalResourceTests
+test_update	tests/tests.py	/^    def test_update(self):$/;"	m	language:Python	class:VersionTests
+test_update_and_delete_worklog	tests/tests.py	/^    def test_update_and_delete_worklog(self):$/;"	m	language:Python	class:IssueTests
+test_update_comment	tests/tests.py	/^    def test_update_comment(self):$/;"	m	language:Python	class:IssueTests
+test_update_with_bad_label	tests/tests.py	/^    def test_update_with_bad_label(self):$/;"	m	language:Python	class:IssueTests
+test_update_with_fieldargs	tests/tests.py	/^    def test_update_with_fieldargs(self):$/;"	m	language:Python	class:IssueTests
+test_update_with_fielddict	tests/tests.py	/^    def test_update_with_fielddict(self):$/;"	m	language:Python	class:IssueTests
+test_update_with_label	tests/tests.py	/^    def test_update_with_label(self):$/;"	m	language:Python	class:IssueTests
+test_update_with_notify_false	tests/tests.py	/^    def test_update_with_notify_false(self):$/;"	m	language:Python	class:IssueTests
+test_user	tests/tests.py	/^    def test_user(self):$/;"	m	language:Python	class:UserTests
+test_user_avatars	tests/tests.py	/^    def test_user_avatars(self):$/;"	m	language:Python	class:UserTests
+test_version_expandos	tests/tests.py	/^    def test_version_expandos(self):$/;"	m	language:Python	class:VersionTests
+test_votes	tests/tests.py	/^    def test_votes(self):$/;"	m	language:Python	class:IssueTests
+test_votes_with_issue_obj	tests/tests.py	/^    def test_votes_with_issue_obj(self):$/;"	m	language:Python	class:IssueTests
+test_worklog	tests/tests.py	/^    def test_worklog(self):$/;"	m	language:Python	class:IssueTests
+test_worklog_with_issue_obj	tests/tests.py	/^    def test_worklog_with_issue_obj(self):$/;"	m	language:Python	class:IssueTests
+test_worklogs	tests/tests.py	/^    def test_worklogs(self):$/;"	m	language:Python	class:IssueTests
+test_worklogs_with_issue_obj	tests/tests.py	/^    def test_worklogs_with_issue_obj(self):$/;"	m	language:Python	class:IssueTests
+tests_require	setup.py	/^        tests_require=get_requirements(base_path, 'requirements-dev.txt'),$/;"	v	language:Python
+texinfo_documents	docs/conf.py	/^texinfo_documents = [$/;"	v	language:Python
+threaded_requests	jira/utils/__init__.py	/^def threaded_requests(requests):$/;"	f	language:Python
+top_three	examples/basic_auth.py	/^top_three = Counter($/;"	v	language:Python
+transition_issue	jira/client.py	/^    def transition_issue(self, issue, transition, fields=None, comment=None, **fieldargs):$/;"	m	language:Python	class:JIRA
+transitions	jira/client.py	/^    def transitions(self, issue, id=None, expand=None):$/;"	m	language:Python	class:JIRA
+translate_resource_args	jira/client.py	/^def translate_resource_args(func):$/;"	f	language:Python
+update	jira/resources.py	/^    def update(self, **args):$/;"	m	language:Python	class:Version
+update	jira/resources.py	/^    def update(self, fields=None, async=None, jira=None, body='', visibility=None):$/;"	m	language:Python	class:Comment
+update	jira/resources.py	/^    def update(self, fields=None, async=None, jira=None, notify=True, **kwargs):$/;"	m	language:Python	class:Resource
+update	jira/resources.py	/^    def update(self, fields=None, update=None, async=None, jira=None, notify=True, **fieldargs):$/;"	m	language:Python	class:Issue
+update	jira/resources.py	/^    def update(self, object, globalId=None, application=None, relationship=None):$/;"	m	language:Python	class:RemoteLink
+update	jira/resources.py	/^    def update(self, users=None, groups=None):$/;"	m	language:Python	class:Role
+update_filter	jira/client.py	/^    def update_filter(self, filter_id,$/;"	m	language:Python	class:JIRA
+update_sprint	jira/client.py	/^    def update_sprint(self, id, name=None, startDate=None, endDate=None, state=None):$/;"	m	language:Python	class:JIRA
+user	jira/client.py	/^    def user(self, id, expand=None):$/;"	m	language:Python	class:JIRA
+user_avatars	jira/client.py	/^    def user_avatars(self, username):$/;"	m	language:Python	class:JIRA
+version	docs/conf.py	/^version = __version__$/;"	v	language:Python
+version	jira/client.py	/^    def version(self, id, expand=None):$/;"	m	language:Python	class:JIRA
+version_count_related_issues	jira/client.py	/^    def version_count_related_issues(self, id):$/;"	m	language:Python	class:JIRA
+version_count_unresolved_issues	jira/client.py	/^    def version_count_unresolved_issues(self, id):$/;"	m	language:Python	class:JIRA
+votes	jira/client.py	/^    def votes(self, issue):$/;"	m	language:Python	class:JIRA
+watchers	jira/client.py	/^    def watchers(self, issue):$/;"	m	language:Python	class:JIRA
+worklog	jira/client.py	/^    def worklog(self, issue, id):$/;"	m	language:Python	class:JIRA
+worklogs	jira/client.py	/^    def worklogs(self, issue):$/;"	m	language:Python	class:JIRA
+wrapper	jira/client.py	/^    def wrapper(*args, **kwargs):$/;"	f	language:Python	function:translate_resource_args
+wrapper	jira/utils/lru_cache.py	/^                def wrapper(*args, **kwds):$/;"	f	language:Python	function:lru_cache.decorating_function
